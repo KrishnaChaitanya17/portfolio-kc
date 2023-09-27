@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"></img>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span> Yenimetla Venkata Krishna Chaitanya </span><br>from Andhra Pradesh,India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a proactive and self-motivated student pursuing a degree in Computer Engineering with a specialization in Data Science.
+                        From an early age, I have been fascinated by the immense power of data to drive informed decisions and uncover hidden 
+                        patterns in complex datasets. This passion has led me to delve deep into the realm of data science and its practical 
+                        applications.Throughout my academic journey, I have honed my skills in programming languages such as Python, R, 
+                        and SQL, equipping me with the ability to manipulate, analyze, and visualize data effectively. I have worked on 
+                        various projects that involved cleaning and preprocessing data, building predictive models, and deploying machine 
+                        learning algorithms.In my future career, I aspire to work with a dynamic team in an organization that encourages 
+                        continuous learning and growth. I am eager to take on challenges, contribute my skills, and make a positive impact 
+                        through data-driven insights and innovations. With a strong commitment to excellence, I am determined to make a 
+                        significant mark in the field of data science and contribute to its ever-evolving landscape.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages and Databases</span><br>Python, C,SQL,MongoDB,Java,Html & CSS,Microsoft office - Excel,
+                                word,ppt</li>
+                            <li><span>Technical Competency</span><br>Machine Learning,Deep learning, Data Analysis,Data visualization, Data
+                                Structures,Operating System,Cloud Computing,Computer Simulation adn Networks, SDLC
+                                </li>
+                            <li><span>Packages and Libraries</span><br>Numpy, Pandas, Sklearn, Matplotlib, Seaborn,Django,Anaconda</li>
+                            <li><span>Developer Tools</span><br>Google colabaratory, JupyterNotebooks,Visual studio, Pycharam, Eclipse,Tableau</li>
+                            <li><span>Soft skills</span><br>Communication,Team leadership, Presentation, Research, Time management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sep 2021 - Jul 2021</span><br>Internship at Let's Grow More.</li>
+                            <li><span>Aug 2021 - Sep 2021</span><br>Internship at The Sparks Foundation.</li>
+                            <li><span>Jun 2021 - Sep 2021</span><br>Internship at Mentorrbuddy.</li>
+                            <li><span>Jul 2021 - Aug 2021</span><br>Internship at Internshala.</li>
+                            <li><span>Jun 2021 - Jul 2021</span><br>Internship at Forage.</li>
+                         </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2023</span><br>Presidency University Bangalore
+                                (Computer Engineering) - 
+                                CGPA — 8.83
+                                </li>
+                            <li><span>2017-2019</span><br>Narayana junior college - CGPA-9.76</li>
+                            <li><span>2017</span><br>Keshava Reddy English Medium High School - CGPA-9.8</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Index Based Search Enabler Using MongoDB</h2>
+                        <p>A simple Backend approach of generating a REST API that facilitates an easy and efficient search enabler using
+                         Indexes (can be Created as well as Deleted in the API), which is demonstrated using a Sample Movie DB.</p>
+                        <a href="https://github.com/KrishnaChaitanya17/Index-based-search-enabler-using-MongoDB.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Traffic Sign Classification</h2>
+                        <p>we will build a deep neural network model that can classify traffic signs present in the image into different 
+                        categories. With this model, we are able to read and understand traffic signs which are a very important task for
+                         all autonomous vehicles.</p>
+                        <a href="https://github.com/KrishnaChaitanya17/Traffic_Sign_Image_Classification.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Insurance Cost prediction</h2>
+                        <p>Insurance is a policy that eliminates or decreases losscosts occurred by various. Machine learning (ML) for the 
+                            insurance industry sector can make the wording of insurance policies more efficient. 
+                            This study demonstrates how different models of regression can forecast insurance costs. 
+                            And we will compare the results of models,</p>
+                        <a href="https://github.com/KrishnaChaitanya17/Project-Insurance-cost.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/KrishnaChaitanya17?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> yvkc17@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 8197767234</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/krishnachaitanya2002"><i class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/KrishnaChaitanya17"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/_krishna._chaitanya_"><i class="fab fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/yenimetla-venkata-krishna-chaitanya-29421a215"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images\C:\Users\DELL\Desktop\kc-portfolio-website\images\Y_V_Krishna_Chaitanya_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Made with <i class="fas fa-heart"></i> by Krishna chaitanya</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
